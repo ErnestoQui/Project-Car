@@ -4,6 +4,11 @@
  *
  * Created on August 4, 2022, 5:54 PM
  */
+// Github repository created 8/13/2022
+// Current state: buttons and pic installed. currently using a pn2222 transistor in between the pic and the motor. 
+// Notice that the transistor is not amplifying enough current, so I will be using an optocoupler with a larger voltage source of 9v for the motor part of the car.
+// Will still be using a 5v source for the pic and buttons associated with the car.
+// Also thinking about adding an interrupt for an emergency stop function of the car. 
 
 #include <stdio.h>
 #include <stdlib.h>
